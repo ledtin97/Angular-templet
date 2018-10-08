@@ -7,9 +7,14 @@ import { Component, OnInit } from '@angular/core';
 })
 export class MainComponent implements OnInit {
 
+  public tasks: Array<object> = [
+    {name: 'Angular', status: 'studing'},
+    {name: 'React', status: 'completed'}
+  ];
   constructor() { }
 
   ngOnInit() {
+    
   }
 
 }
